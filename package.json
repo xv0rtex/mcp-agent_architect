@@ -1,0 +1,15 @@
+{
+  "name": "hackatin-mcp-agents",
+  "version": "0.1.0",
+  "description": "MCP server that downloads Hackatin project agents into .claude/agents",
+  "type": "module",
+  "bin": {
+    "hackatin-mcp-agents": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
